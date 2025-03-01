@@ -10,7 +10,7 @@ function App() {
       <section className='container'>
           <h3>{usuarios.length}: BirthDays</h3>
           <List usuarios={usuarios} />
-          <button type='button' className='btn btn-block'>Limpar Lista</button>
+          <button type='button' className='btn btn-block' onClick={() => setUsuarios([])}>Limpar Lista</button>
       </section>
     </main>
   )
